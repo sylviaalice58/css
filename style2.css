@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+ h1{
+    text-align: center;
+    letter-spacing: 20px;
+    padding-top: 30px;
+ }
+
+ p{
+    padding-left: 30px;
+    padding-right: 10px;
+    text-transform: lowercase;
+ }
+
+ h3{
+    text-align: left;
+    background-color: brown;
+    border-top: 8px black double;
+    margin-top: 20px;
+    padding-top: 30px;
+    margin-right: 250px;
+    border-right: 5px lightgreen solid;
+    padding-right: 30px;
+    border-bottom: 5px green solid;
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+    border-left: 5px blue solid;
+    margin-left: 50px ;
+    padding-left: 30px;
+    color: rgb(248, 224, 224);
+ }
+
+ a{
+    background-color: brown;
+    color: rgb(248, 236, 236);
+    padding: 10px;
+ }
+ a:hover{
+    background-color: rgb(177, 107, 21);
+    color: blue;
+ }
