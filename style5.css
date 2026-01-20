@@ -1,0 +1,52 @@
+h1{
+   font-size: 70px;
+   text-shadow: 5px;
+   text-align: center;
+   text-decoration: underline;
+   text-transform: uppercase;
+
+
+}
+
+#div1{
+    background-color: black;
+    height: 100px;
+    width: 500px;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+.div2{
+    background-color: white;
+    height: 30px;
+    width: 500px;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+#div3{
+    background-color: red;
+    height: 100px;
+    width: 500px;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+#div4{
+    background-color: green;
+    height: 100px;
+    width: 500px;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+}
+
+img{
+    width: 150px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
