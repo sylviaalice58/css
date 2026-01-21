@@ -1,0 +1,17 @@
+#element{
+    width: 50%;
+    height: 50%;
+    animation: pulse 10s infinite;
+    align-items: center;
+    justify-items: center;
+    animation-delay: 0.25s;
+
+}
+
+@keyframes pulse{
+    0%{
+        background-color: blue;
+    }
+    100%{background-color: aqua;}
+}
+

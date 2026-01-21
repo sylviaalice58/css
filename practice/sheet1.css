@@ -1,0 +1,29 @@
+.element{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: brown;
+    animation-name: stretch;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+
+@keyframes stretch{
+    0%{
+        transform: scale(.5);
+        background-color: brown;
+        border-radius: 100%;  
+    }
+    50%{
+        background-color: yellowgreen;
+    }
+    100%{
+        transform: scale(1.5);
+        border-color: yellow;
+    }
+}

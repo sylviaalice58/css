@@ -1,0 +1,35 @@
+.element{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    animation: pulse 5s ease infinite alternate,
+    nudge 10s linear infinite alternate;
+    border-radius: 100%;
+}
+
+@keyframes pulse {
+    0%, 100%{
+        background-color: brown;
+    }
+    50%{
+        background-color: chocolate;
+    }
+    100%{
+        background-color: bisque;
+    }
+}
+
+@keyframes nudge{
+    0%, 100%{
+        transform: translate(0,0);
+    }
+
+    50%{
+        transform: translate(100px,0);
+    }
+
+    80%{
+        transform: translate(-100px,o);
+    }
+}
+  
